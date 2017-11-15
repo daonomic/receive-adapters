@@ -22,6 +22,9 @@
   },
   "homepage": "https://github.com/daonomic/receive-adapters",
   "dependencies": {
-    "daox-tokens": "0.0.1"
+    "daonomic-interfaces": "0.0.1"
+  },
+  "devDependencies": {
+    "daox-tokens": "0.0.3"
   }
 }
