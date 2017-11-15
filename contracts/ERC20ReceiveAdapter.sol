@@ -1,7 +1,7 @@
 pragma solidity ^0.4.11;
 
 
-import '../daox-tokens/contracts/standard/Token.sol';
+import 'daox-tokens/contracts/standard/Token.sol';
 import './ReceiveAdapter.sol';
 
 /**

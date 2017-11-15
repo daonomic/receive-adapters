@@ -1,7 +1,7 @@
 pragma solidity ^0.4.0;
 
 
-import "../../daox-tokens/contracts/standard/NotifyingTokenImpl.sol";
+import "daox-tokens/contracts/standard/NotifyingTokenImpl.sol";
 
 
 contract ERC223Mock is NotifyingTokenImpl {

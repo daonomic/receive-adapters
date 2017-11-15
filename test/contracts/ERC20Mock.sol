@@ -1,7 +1,7 @@
 pragma solidity ^0.4.18;
 
 
-import "../../daox-tokens/contracts/standard/TokenImpl.sol";
+import "daox-tokens/contracts/standard/TokenImpl.sol";
 
 
 contract ERC20Mock is TokenImpl {
