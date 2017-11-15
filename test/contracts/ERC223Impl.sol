@@ -2,10 +2,10 @@ pragma solidity ^0.4.18;
 
 
 import "../../contracts/TokenReceiver.sol";
-import "../../zeppelin-solidity/contracts/token/StandardToken.sol";
+import "../../daox-tokens/contracts/standard/TokenImpl.sol";
 
 
-contract ERC223Impl is StandardToken {
+contract ERC223Impl is TokenImpl {
     event Transfer(address indexed from, address indexed to, uint256 value, bytes data);
 
     function transfer(address _to, uint256 _value, bytes _data) public returns (bool) {
