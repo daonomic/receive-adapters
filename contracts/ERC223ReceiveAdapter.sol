@@ -2,7 +2,7 @@ pragma solidity ^0.4.11;
 
 
 import './ReceiveAdapter.sol';
-import './TokenReceiver.sol';
+import '../daox-tokens/contracts/standard/TokenReceiver.sol';
 
 /**
  * @dev Helps to receive ERC223-complaint tokens. ERC223 Token contract should notify receiver.
