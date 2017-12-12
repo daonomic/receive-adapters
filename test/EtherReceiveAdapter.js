@@ -1,6 +1,6 @@
 var AdapterMock = artifacts.require('EtherReceiveAdapterMock.sol');
 
-const awaitEvent = require('./helpers/awaitEvent');
+const awaitEvent = require('@daonomic/tests-common').awaitEvent;
 
 contract('EtherReceiveAdapter', function(accounts) {
   it("should receive ethers", async function() {

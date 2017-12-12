@@ -1,7 +1,7 @@
 pragma solidity ^0.4.11;
 
 
-import 'daonomic-interfaces/contracts/Token.sol';
+import '@daonomic/interfaces/contracts/Token.sol';
 import './ReceiveAdapter.sol';
 
 /**

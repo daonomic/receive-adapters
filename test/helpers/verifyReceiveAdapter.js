@@ -1,4 +1,4 @@
-const awaitEvent = require('./awaitEvent');
+const awaitEvent = require('@daonomic/tests-common').awaitEvent;
 
 module.exports = async function(account, tokenContract, receiveContract, sender) {
     let token = await tokenContract.new(account, 100);
