@@ -1,6 +1,6 @@
 {
   "name": "@daonomic/receivers",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Different smart contracts for receiving tokens",
   "main": "truffle.js",
   "directories": {
@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/daonomic/receivers",
   "dependencies": {
-    "@daonomic/interfaces": "0.0.1"
+    "@daonomic/interfaces": "^0.0.1"
   },
   "devDependencies": {
-    "@daonomic/tokens": "0.0.1",
-    "@daonomic/tests-common": "0.0.3"
+    "@daonomic/tokens": "^0.0.1",
+    "@daonomic/tests-common": "^0.0.3"
   }
 }
