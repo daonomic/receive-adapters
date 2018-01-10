@@ -1,8 +1,9 @@
 pragma solidity ^0.4.11;
 
 import './ReceiveAdapter.sol';
+import '@daonomic/interfaces/contracts/EtherReceiver.sol';
 
-contract EtherReceiveAdapter is ReceiveAdapter {
+contract EtherReceiveAdapter is EtherReceiver, ReceiveAdapter {
     function () payable public {
         receiveEtherAndData("");
     }
