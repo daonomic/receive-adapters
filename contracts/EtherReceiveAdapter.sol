@@ -5,10 +5,10 @@ import '@daonomic/interfaces/contracts/EtherReceiver.sol';
 
 contract EtherReceiveAdapter is EtherReceiver, ReceiveAdapter {
     function () payable public {
-        receiveEtherAndData("");
+        receiveWithData("");
     }
 
-    function receiveEtherAndData(bytes _data) payable public {
+    function receiveWithData(bytes _data) payable public {
         onReceive(address(0), msg.sender, msg.value, _data);
     }
 }
