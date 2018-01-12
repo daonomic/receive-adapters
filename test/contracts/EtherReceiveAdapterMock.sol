@@ -2,8 +2,8 @@ pragma solidity ^0.4.11;
 
 
 import '../../contracts/EtherReceiveAdapter.sol';
-import './ReceiveAdapterMock.sol';
+import '../../contracts/TestReceiveAdapter.sol';
 
 
-contract EtherReceiveAdapterMock is EtherReceiveAdapter, ReceiveAdapterMock {
+contract EtherReceiveAdapterMock is EtherReceiveAdapter, TestReceiveAdapter {
 }

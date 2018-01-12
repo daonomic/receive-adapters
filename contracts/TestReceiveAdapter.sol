@@ -1,9 +1,9 @@
 pragma solidity ^0.4.11;
 
-import '../../contracts/ReceiveAdapter.sol';
+import './ReceiveAdapter.sol';
 
 
-contract ReceiveAdapterMock is ReceiveAdapter {
+contract TestReceiveAdapter is ReceiveAdapter {
     event Receive(address token, address from, uint256 value, bytes data);
 
     function onReceive(address _token, address _from, uint256 _value, bytes _data) internal {
