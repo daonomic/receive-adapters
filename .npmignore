@@ -1,5 +1,5 @@
-test
-migrations
-test.sh
 .idea
 *.iml
+migrations
+test
+build
