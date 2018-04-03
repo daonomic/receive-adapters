@@ -1,4 +1,4 @@
-pragma solidity ^0.4.11;
+pragma solidity ^0.4.21;
 
 /**
  * @dev This adapter helps to receive tokens. It has some subcontracts for different tokens:

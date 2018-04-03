@@ -1,4 +1,4 @@
-pragma solidity ^0.4.11;
+pragma solidity ^0.4.21;
 
 import './ERC20ReceiveAdapter.sol';
 import './ERC223ReceiveAdapter.sol';
